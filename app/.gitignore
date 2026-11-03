@@ -1,0 +1,16 @@
+# Lines starting with '#' are comments and are ignored by Git
+
+# Ignore a specific file
+
+# Ignore an entire directory and all its contents (include trailing slash)
+node_modules/
+logs/
+
+# Ignore all files ending with a specific extension (using '*')
+*.log
+*.tmp
+
+# Exception rule: Ignore all .log files, BUT keep 'important.log'
+*.log
+!important.log
+
